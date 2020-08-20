@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>BTS Attack Renamer</title>
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+</head>
+<body>
+<center>
+<label class="upload" for="upload">Upload Attack</label>
+<input type="file" id="upload" />
+<br><br>
+<label>(If it isn't a CSV file it'll be converter)</label>
+<br><br><br>
+<label>Which attack are you replacing?</label>
+<br>
+<select id="attackchoice" name="attackchoice">
+<option value="_null.csv">Choose an attack</option>
+<option value="_intro.csv">Intro Attack</option>
+<option value="_final.csv">Final Attack</option>
+</select>
+<br><br><br>
+<label>What did you rename Sans to?</label>
+<br>
+<label>(If you didn't change his name, don't touch this)</label>
+<br>
+<input type="text" id="sansname" name="sansname" value="sans">
+<br><br>
+<a id="link" download>Download</a>
+</center>
+</body>
+</html>
